@@ -55,7 +55,7 @@ func listCommand(bot *tgbotapi.BotAPI, inputMessage *tgbotapi.Message, productSe
 	outputMgsText := "Here all the products: \n\n"
 
 	products := productService.List()
-	for _, p := range products{
+	for _, p := range products {
 		outputMgsText += p.Title
 		outputMgsText += "\n"
 	}
