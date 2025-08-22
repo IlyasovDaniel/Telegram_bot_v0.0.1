@@ -12,7 +12,7 @@ type Commander struct {
 	productService *product.Service
 }
 
-func NewCommander(	
+func NewCommander(
 	bot *tgbotapi.BotAPI,
 	productService *product.Service,
 ) *Commander {
