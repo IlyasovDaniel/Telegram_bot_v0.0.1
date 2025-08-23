@@ -3,7 +3,7 @@ package commands
 import (
 	"log"
 
-	"github.com/IlyasovDaniel/Telegram_bot_v0.0.1/internal/service/product"
+	"github.com/IlyasovDaniel/Telegram_bot_v0.0.1/bot/internal/service/product"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
