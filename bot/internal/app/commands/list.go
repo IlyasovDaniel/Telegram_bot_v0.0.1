@@ -16,3 +16,7 @@ func (c *Commander) List(inputMessage *tgbotapi.Message) {
 	msg := tgbotapi.NewMessage(inputMessage.Chat.ID, outputMgsText)
 	c.bot.Send(msg)
 }
+
+func init() {
+	registeredCommands["list"] = (*Commander).List
+}
